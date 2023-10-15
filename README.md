@@ -6,7 +6,7 @@
 I created this repository to share a set of links that I found valuable and inspiring and I share them with others to improve our knowledge together ✌️. 
 
 **🚀 Go ahead to the official page here:**
-**[https://mehdihadeli.github.io/awesome-go-education](https://mehdihadeli.github.io/awesome-go-education/)**
+**[https://ajackti.github.io/awesome-go-education](https://ajackti.github.io/awesome-go-education/)**
 
 
 ## 🙏 Special Thanks
@@ -22,10 +22,10 @@ Thanks a bunch for supporting me!
 
 ## Contribution
 
-Contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/mehdihadeli/awesome-go-education/blob/master/contributing.md) pages first.
+Contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/ajackti/awesome-go-education/blob/master/contributing.md) pages first.
 
-Thanks to all [contributors](https://github.com/mehdihadeli/awesome-go-education/graphs/contributors), you're awesome and wouldn't be possible without you! The goal is to build a categorized community-driven collection of very well-known resources.
+Thanks to all [contributors](https://github.com/ajackti/awesome-go-education/graphs/contributors), you're awesome and wouldn't be possible without you! The goal is to build a categorized community-driven collection of very well-known resources.
 
-<a href="https://github.com/mehdihadeli/awesome-go-education/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mehdihadeli/awesome-go-education" />
+<a href="https://github.com/ajackti/awesome-go-education/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ajackti/awesome-go-education" />
 </a>

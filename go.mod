@@ -1,3 +1,3 @@
-module github.com/mehdihadeli/awesome-go-education
+module github.com/ajackti/awesome-go-education
 
-go 1.17
+go 1.21.3

@@ -1,0 +1,202 @@
+site_name: Awesome Go Educations
+site_url: https://github.com/mehdihadeli/awesome-go-education
+site_description: A curated list of awesome articles and resources for learning and practicing about Go and its related technologies.
+docs_dir:
+repo_name: mehdihadeli/awesome-go-education
+repo_url: https://github.com/mehdihadeli/awesome-go-education
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  #https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - toc.integrate 
+    - navigation.top
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  prev_next_buttons_location: both
+  navigation_depth: 4
+  titles_only: False
+  sticky_navigation: True
+markdown_extensions:
+  - smarty
+  - sane_lists
+  - fenced_code
+  - meta
+  - admonition
+  - attr_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  #- pymdownx.emoji:
+  #    emoji_index: !!python/name:pymdownx.emoji.twemoji
+  #    emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  #- pymdownx.emoji:
+  #    emoji_index: !!python/name:materialx.emoji.twemoji
+  #    emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+
+nav:
+  - WEB:
+    - WEB / REST : web/web-rest.md
+    - Server: web/server.md
+    - Status Code : web/status-code.md
+    - Header : web/header.md
+    - Http Client :  web/http-client.md
+    - Http Handler :  web/http-handler.md
+    - Middleware :  web/middleware.md
+    - Mux & Router :  web/mux-router.md
+    - Rate Limiting :  web/rate-limiting.md
+    - Response :  web/response.md
+    - Template: web/template.md
+    - Versioning :  web/versioning.md
+  - Go Instructions:
+    - Go: go-instructions/go.md
+    - Control Flow: go-instructions/control-flow.md
+    - Conversion & Assertion: go-instructions/conversion-assertion.md
+    - Dep: go-instructions/dep.md
+    - Function:
+      - Function: go-instructions/functions/function.md
+      - Anonymouse Functions: go-instructions/functions/anonymouse-functions.md
+      - Closures: go-instructions/functions/closures.md
+      - First Class Functions: go-instructions/functions/first-class-functions.md
+      - Variadic Functions: go-instructions/functions/variadic-functions.md
+      - Defer: go-instructions/functions/defer.md
+    - Relational Databases:
+      - Postgres: relational/postgres.md
+      - ORM: relational/orm.md
+      - Migration: relational/migration.md
+    - NoSQL:
+      - MongoDB: no-sql/mongodb.md
+    - Init: go-instructions/init.md
+    - Interface:
+      - Interface: go-instructions/interface/interface.md
+      - Type Assertion: go-instructions/interface/type-assertion.md
+      - Type Switch: go-instructions/interface/type-switch.md
+    - Loops: go-instructions/loops.md
+    - Pointer: go-instructions/pointer.md
+    - Struct:
+      - Struct: go-instructions/struct/struct.md
+      - Struct Tags: go-instructions/struct/struct-tags.md
+      - Method: go-instructions/struct/method.md
+      - Embedding: go-instructions/struct/embedding.md
+    - Switch: go-instructions/switch.md  
+    - Generics: go-instructions/generics.md
+    - Variables: go-instructions/variables.md
+    - New & Make: go-instructions/new-make.md
+    - Enums: go-instructions/enum.md
+    - Equality: o-instructions/equality.md
+    - Data Types:
+      - Data Types: go-instructions/data-types/data-types.md
+      - Strings: go-instructions/data-types/strings.md
+    - Collections:
+      - Array: go-instructions/collections/arrays.md
+      - Maps: go-instructions/collections/maps.md
+      - Slices: go-instructions/collections/slices.md
+  - Logging: logging.md
+  - DDD: ddd.md
+  - Repository: repository.md
+  - Clean Architecture: clean-architecture.md
+  - CQRS: cqrs.md
+  - Event Sourcing: event-sourcing.md
+  - Concurrency:
+    - Concurrency: concurrency/concurrency.md
+    - Goroutines: concurrency/goroutines.md
+    - Channels: concurrency/channel.md
+    - Buffered Channels: concurrency/buffered-channels.md
+    - Range-Close: concurrency/range-close.md
+    - Wait Group: concurrency/wait-group.md
+    - Deadlock: concurrency/deadlock.md
+    - Select: concurrency/select.md
+    - Mutex: concurrency/mutex.md
+    - Concurrency Vs Parallelism: concurrency/concurrency-vs-parallelism.md
+  - Error Handling: error-handling.md
+  - Best Practices: best-practices.md
+  - File: file.md
+  - Modules & Packages: modules-packages.md
+  - gRPC: gRPC.md
+  - Context: context.md
+  - Messaging:
+    - RabbitMQ: messaging/rabbitmq.md
+    - Kafka: messaging/kafka.md
+  - Data Structure: data-structure.md
+  - LINQ: linq.md
+  - Authentication & OAuth: auth-oauth.md
+  - Microservices : microservices.md
+  - Service Discovery : service-discovery.md
+  - Distributed Transaction: distributed-transaction.md
+  - Tracing: tracing.md
+  - Go Generate: go-generate.md
+  - OOP : oop.md
+  - Project Layout & Structure : project-layout-structure.md
+  - API Documentation: api-documentation.md
+  - Profiling: profiling.md
+  - Caching: caching.md
+  - Serialization & Json: serialization.md
+  - Environment: environment.md
+  - Mappings: mappings.md
+  - Benchmarks: benchmarks.md
+  - Retry: retry.md
+  - Background Tasks: background-task
+  - Debugging: debugging.md
+  - Reflection: reflection.md
+  - Elastic Search: elastic.md
+  - Anti Patterns: anti-patterns.md
+  - Functional Programming: functional-programming.md
+  - Test: test.md
+  - Docker: docker.md
+  - Kubernetes: kubernetes.md
+  - Software Architecture : software-architecture.md
+  - Naming Convention : naming-convention.md
+  - Build & Install: build-install.md
+  - Workspace && GOPATH: workspace-gopath.md
+  - Package Management: package-management.md
+  - Rate Limit: rate-limit.md
+  - Libraries: libraries.md
+  - ID: id.md
+  - Tools: tools.md
+  - Utils: utils.md
+  - Netlify: netlify.md
+  - Lint & Formatters: lint-formatters.md
+  - CLI: cli.md
+  - CI/CD: ci-cd.md
+  - Resources: resources.md
+  - Others: 
+    - Flag: others/flag.md
+
+copyright: 2021 <a href="https://github.com/mehdihadeli">Mehdi Hadeli</a>.
+#remote_branch: gh-pages
+#remote_name: origin
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mehdi_hadeli
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mehdihadeli
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/mehdihadeli
